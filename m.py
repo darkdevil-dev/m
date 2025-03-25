@@ -36,7 +36,7 @@ bot = Client(
     "bot",
     api_id=29690940,
     api_hash="8a13349a897b290d2553e11f2860691c",
-    bot_token="7536020028:AAGCmOyTd6zyusyUxsH98nuoLeKAdCATo2o"
+    bot_token="7880134209:AAHzZbaAvww-xP0CbV_23wW6cQl6cO2vfJg"
 )
 
 # Authorization Check
