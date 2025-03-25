@@ -62,7 +62,7 @@ async def send(client: Client, message: Message):
     # Function to get user input safely
     async def get_input(prompt):
         await message.reply(prompt)
-        return (await client.listen(message.chat.id, filter=filters.user(user_id))).text
+        return (await client.listen(message.chat.id, filters=filters.user(user_id))).text
 
     # Step 1: Ask for sender email
     sender_email = await get_input("📧 Enter the sender email address:")
